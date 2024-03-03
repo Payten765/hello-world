@@ -1,9 +1,82 @@
-<mxfile host="app.diagrams.net" modified="2024-03-03T17:18:42.876Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" version="24.0.1" etag="3kL_EXYIxL4g2WquOcEA" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-03T17:27:04.246Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="QjLHDOBzy7XOrX4MOWUN" version="24.0.1" type="github">
   <diagram name="Page-1" id="YdxWpG3p8DBFg0M9ia0t">
-    <mxGraphModel>
+    <mxGraphModel dx="1434" dy="738" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="Gnz5uVe1Dqk4FEAsD5uo-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Gnz5uVe1Dqk4FEAsD5uo-1" target="Gnz5uVe1Dqk4FEAsD5uo-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Gnz5uVe1Dqk4FEAsD5uo-1" value="Assign all variables and lists&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="70" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Gnz5uVe1Dqk4FEAsD5uo-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Gnz5uVe1Dqk4FEAsD5uo-2" target="Gnz5uVe1Dqk4FEAsD5uo-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Gnz5uVe1Dqk4FEAsD5uo-2" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="145" y="10" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Gnz5uVe1Dqk4FEAsD5uo-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Gnz5uVe1Dqk4FEAsD5uo-4" target="Gnz5uVe1Dqk4FEAsD5uo-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Gnz5uVe1Dqk4FEAsD5uo-4" value="Ask user for their name and amount of employees enrolled" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Gnz5uVe1Dqk4FEAsD5uo-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Gnz5uVe1Dqk4FEAsD5uo-6" target="Gnz5uVe1Dqk4FEAsD5uo-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Gnz5uVe1Dqk4FEAsD5uo-6" value="Check user input against conditions and process data into its respective list" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="330" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Gnz5uVe1Dqk4FEAsD5uo-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Gnz5uVe1Dqk4FEAsD5uo-8" target="Gnz5uVe1Dqk4FEAsD5uo-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Gnz5uVe1Dqk4FEAsD5uo-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Gnz5uVe1Dqk4FEAsD5uo-8" target="Gnz5uVe1Dqk4FEAsD5uo-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Gnz5uVe1Dqk4FEAsD5uo-8" value="Add 1 to a counter that keeps track of how many loops ran and check loop condition again" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="95" y="430" width="130" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Gnz5uVe1Dqk4FEAsD5uo-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="Gnz5uVe1Dqk4FEAsD5uo-10" target="Gnz5uVe1Dqk4FEAsD5uo-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="263" y="400" />
+              <mxPoint x="263" y="345" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Gnz5uVe1Dqk4FEAsD5uo-10" value="If less than 15 entries have been entered run loop again" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="305" y="390" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Gnz5uVe1Dqk4FEAsD5uo-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Gnz5uVe1Dqk4FEAsD5uo-13" target="Gnz5uVe1Dqk4FEAsD5uo-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Gnz5uVe1Dqk4FEAsD5uo-13" value="Once loop is exited format all data in arrays" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="600" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Gnz5uVe1Dqk4FEAsD5uo-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Gnz5uVe1Dqk4FEAsD5uo-15">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="690" y="590" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Gnz5uVe1Dqk4FEAsD5uo-15" value="Once the data is ready to be displayed, display data of how many managers are in each category, the names of each manager respectively, and how many new enrollees the group had combined" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="410" y="520" width="185" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="Gnz5uVe1Dqk4FEAsD5uo-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Gnz5uVe1Dqk4FEAsD5uo-18" target="Gnz5uVe1Dqk4FEAsD5uo-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Gnz5uVe1Dqk4FEAsD5uo-18" value="Once data is displayed to user, set our varieble that checks if the end condition is met to True to end our program" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="660" y="530" width="150" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="Gnz5uVe1Dqk4FEAsD5uo-19" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="720" y="670" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Gnz5uVe1Dqk4FEAsD5uo-21" value="End" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="760" y="670" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Gnz5uVe1Dqk4FEAsD5uo-22" value="Start" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="170" y="10" width="50" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
